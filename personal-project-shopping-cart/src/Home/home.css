@@ -1,0 +1,29 @@
+.home {
+  background-image: url("1.jpeg");
+  text-transform: capitalize;
+  height: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-shadow: 1px 1px 7px black;
+}
+.home button {
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 1px 1px 7px black;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.home button:hover{
+    transition: 0.3s;
+    background-color: rgb(0, 0, 0,0.8);
+    color: white;
+}

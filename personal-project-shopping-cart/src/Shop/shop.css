@@ -1,0 +1,19 @@
+.products {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.product-header {
+  margin: 4px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 3fr auto 1fr;
+}
+.product-header input,
+.product-header select {
+  font-size: 1.2rem;
+  margin: 2px;
+}
